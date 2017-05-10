@@ -1,15 +1,10 @@
-# leadbi-wordpress-sdk
-LeadBI WordPress SDK for server side integration.
+<?php
 
-## Get started
-1. Install the leadbi-wordpress-sdk plugin in your wordpress website
-2. Start using the PHP API
+/**
+ * Example integration
+ */
 
-## Docs
-The documentation can be found in /docs 
 
-## Example 
-```
 // create new form api object 
 $formApi = new LeadBIFormAPI();
 $form_id= '3638a022-2823-4541-b31c-1856f1a72916';
@@ -24,7 +19,3 @@ $formApi->sendForm($form_id, array(
     'phone' => '+1-541-754-3010', // optional
     'website' => 'http://example.com'
 ));
-
-```
-
-More examples available in /examples

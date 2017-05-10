@@ -1,30 +1,26 @@
-# leadbi-wordpress-sdk
-LeadBI WordPress SDK for server side integration.
+# LeadBIFormAPI
+This class allows you to send form data to leadbi.
 
-## Get started
-1. Install the leadbi-wordpress-sdk plugin in your wordpress website
-2. Start using the PHP API
+## sendForm($formId, array $form, $page_info = null) -> boolean
+Send form data to leadbi.
 
-## Docs
-The documentation can be found in /docs 
+### Example
 
-## Example 
 ```
 // create new form api object 
 $formApi = new LeadBIFormAPI();
-$form_id= '3638a022-2823-4541-b31c-1856f1a72916';
+$form_id= '3638a022-2823-4541-b31c-1856f6a72916';
 
 // send form data to leadbi
 $formApi->sendForm($form_id, array(
     'first_name' => 'John', // optional
     'last_name' => 'Doe', // optional
-    'email' => 'jd@example.com', // requred
+    'email' => 'jd@example.com', // required
     'company' => 'Example, Inc.', // optional
     'role' => 'CMO', // optional
     'phone' => '+1-541-754-3010', // optional
     'website' => 'http://example.com'
 ));
-
 ```
 
-More examples available in /examples
+
