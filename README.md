@@ -2,7 +2,7 @@
 LeadBI WordPress SDK for server side integration.
 
 ## Get started
-1. Install the leadbi-wordpress-sdk plugin in your wordpress website
+1. Install the leadbi-wordpress-sdk plugin in your wordpress website -[https://www.leadbi.com/leadbi_wordpress_sdk.v1.0.zip](https://www.leadbi.com/leadbi_wordpress_sdk.v1.0.zip)
 2. Start using the PHP API
 
 ## Docs
